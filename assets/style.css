@@ -4,4 +4,11 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #fe7560;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.text{
+    font-size: 1.5rem ;
+    font-weight: 700;
+    color: #401d18;
 }
