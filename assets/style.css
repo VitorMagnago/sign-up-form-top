@@ -1,7 +1,12 @@
+:root {
+	--font-color-main: #ffaba5;
+}
+
 body {
 	min-height: 100vh;
 	background-color: #42050d;
 	font-family: "Quicksand", sans-serif;
+	overflow: hidden;
 }
 
 .content {
@@ -22,12 +27,25 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	overflow: hidden;
 }
 
 .text {
+	padding: 100px 60px;
 	font-size: 1.5rem;
 	font-weight: 700;
-	color: #ffaba5;
+	color: var(--font-color-main);
+}
+
+.main-text {
+	margin-bottom: 16px;
+}
+
+.form-title {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: var(--font-color-main);
+	margin-bottom: 10px;
 }
 
 .form-container {
@@ -37,6 +55,11 @@ body {
 		0px 23.5px 13.4px -36px rgba(0, 0, 0, 0.263),
 		0px 34.1px 32.3px -36px rgba(0, 0, 0, 0.388),
 		0px 47px 107px -36px rgba(0, 0, 0, 0.51);
+	margin-bottom: 45px;
+}
+
+.form-input label {
+	color: var(--font-color-main);
 }
 
 form {
@@ -50,13 +73,43 @@ form {
 .form-input {
 	display: flex;
 	flex-direction: column;
+	width: auto;
 }
 input {
 	border-radius: 6px;
 	padding: 4px;
+	width: auto;
 }
 
 .page-footer {
-	padding-bottom: 100px;
+	padding-bottom: 38px;
 	padding-left: 60px;
+	font-size: 20px;
+	color: var(--font-color-main);
+}
+
+a {
+	color: #fff;
+	font-weight: 700;
+	size: 25px;
+}
+
+.btn {
+	background-color: #fe8876;
+	border: 1px solid #fe8876;
+	padding: 12px 32px;
+	border-radius: 12px;
+	margin-bottom: 28px;
+	color: #42050d;
+	font-size: 20px;
+	font-weight: 700;
+	transition: 0.4s;
+	display: block;
+}
+
+.btn:hover {
+	background-color: transparent;
+	color: var(--font-color-main);
+	cursor: pointer;
+	transition: 0.4s;
 }
