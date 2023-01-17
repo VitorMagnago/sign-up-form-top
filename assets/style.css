@@ -32,18 +32,18 @@ body {
 }
 
 .text {
-	padding: 100px 60px;
-	font-size: 24px;
+	padding: 60px 60px;
+	font-size: 1rem;
 	font-weight: 700;
 	color: var(--font-color-main);
 }
 
 .main-text {
-	margin-bottom: 16px;
+	margin-bottom: 12px;
 }
 
 .form-title {
-	font-size: 24px;
+	font-size: 1rem;
 	font-weight: 700;
 	color: var(--font-color-main);
 	margin-bottom: 10px;
@@ -51,12 +51,12 @@ body {
 
 .form-container {
 	background-color: #a73a3228;
-	padding: 30px 200px 30px 60px;
+	padding: 20px 200px 20px 60px;
 	box-shadow: 0px 12.9008px 4.8px -36px rgba(0, 0, 0, 0.133),
 		0px 23.5008px 13.4px -36px rgba(0, 0, 0, 0.263),
 		0px 34.1008px 32.2992px -36px rgba(0, 0, 0, 0.388),
 		0px 47px 107px -36px rgba(0, 0, 0, 0.51);
-	margin-bottom: 45px;
+	margin-bottom: 2rem;
 }
 
 .form-input label {
@@ -67,8 +67,8 @@ form {
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-template-columns: 1fr 1fr;
-	row-gap: 25px;
-	column-gap: 100px;
+	row-gap: 18px;
+	column-gap: 80px;
 }
 
 .form-input {
@@ -83,16 +83,16 @@ input {
 }
 
 .page-footer {
-	padding-bottom: 38px;
+	padding-bottom: 32px;
 	padding-left: 60px;
-	font-size: 20px;
+	font-size: 16px;
 	color: var(--font-color-main);
 }
 
 a {
 	color: #fff;
 	font-weight: 700;
-	size: 25px;
+	font-size: 1rem;
 }
 
 .btn {
@@ -100,9 +100,9 @@ a {
 	border: 1px solid #fe8876;
 	padding: 12px 32px;
 	border-radius: 12px;
-	margin-bottom: 28px;
+	margin-bottom: 18px;
 	color: #42050d;
-	font-size: 20px;
+	font-size: 1rem;
 	font-weight: 700;
 	transition: 0.4s;
 	display: block;
@@ -114,3 +114,4 @@ a {
 	cursor: pointer;
 	transition: 0.4s;
 }
+
