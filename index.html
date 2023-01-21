@@ -29,26 +29,26 @@
 				</header>
 				<div class="form-container">
 					<p class="form-title">Let's do this!</p>
-					<form action="" method="post">
+					<form action="#" method="post" id="form">
 						<div class="form-input">
 							<label for="first-name">First Name</label>
-							<input type="text" name="first-name" id="first-name" />
+							<input type="text" name="first-name" id="first-name" required />
 						</div>
 						<div class="form-input">
 							<label for="last-name">Last Name</label>
-							<input type="text" name="last-name" id="last-name" />
+							<input type="text" name="last-name" id="last-name" required />
 						</div>
 						<div class="form-input">
 							<label for="email">Email</label>
-							<input type="email" name="email" id="email" />
+							<input type="email" name="email" id="email" required />
 						</div>
 						<div class="form-input">
 							<label for="tel">Phone Number</label>
-							<input type="tel" name="tel" id="tel" />
+							<input type="tel" name="tel" id="tel" required />
 						</div>
 						<div class="form-input">
 							<label for="password">Password</label>
-							<input type="password" name="password" id="password" />
+							<input type="password" name="password" id="password" required />
 						</div>
 						<div class="form-input">
 							<label for="confirm-password">Confirm Password</label>
@@ -56,12 +56,14 @@
 								type="password"
 								name="confirm-password"
 								id="confirm-password"
+								required
 							/>
 						</div>
 					</form>
 				</div>
 				<footer class="page-footer">
-					<button class="btn" type="submit">Create Account</button>
+					<button class="btn" type="submit" form="form">Create Account</button>
+					<!--Quando um botão de submit não está dentro da tag 'form' precisamos utilizar o atributo 'form' e referenciar seu valor com o id da tag form	-->
 					<p class="page-footer__text">
 						Already have an account?<a href="#"> Log in</a>
 					</p>
