@@ -80,6 +80,7 @@ input {
 	border-radius: 6px;
 	padding: 4px;
 	width: auto;
+	border: transparent 4px solid;
 }
 
 .page-footer {
